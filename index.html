@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>G R O C I F Y</title>
+    <link
+      rel="shortcut icon"
+      href="https://img.icons8.com/color/48/shopping-mall.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <!-- CSS link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- tailwindcss link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+              penguin: "#FFFBF0",
+              jacketprice: "#FABE4C",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="bg-slate-700">
+    <div
+      class="min-h-screen bg-[url('images/image.png')] bg-center bg-cover px-28 py-5 relative"
+    >
+      <nav class="flex items-center">
+        <img src="./images/logo.png" alt="#" class="w-40 cursor-pointer" />
+        <ul class="flex-1 text-center">
+          <li class="list-none inline-block px-5">
+            <a href="#" class="no-underline text-white">Home</a>
+          </li>
+          <li class="list-none inline-block px-5">
+            <a href="#" class="no-underline text-white px-2">About</a>
+          </li>
+          <li class="list-none inline-block px-5">
+            <a href="#" class="no-underline text-white px-2">Features</a>
+          </li>
+          <li class="list-none inline-block px-5">
+            <a href="#" class="no-underline text-white px-2">Contact</a>
+          </li>
+        </ul>
+        <img src="./images/cart.png" alt="#" class="w-8 cursor-pointer" />
+      </nav>
+
+      <div class="text-white mt-48 max-w-xl">
+        <h1 class="text-6xl font-semibold leading-normal">
+          Groceries<br />delivery in <span class="font-light">15 mins</span>
+        </h1>
+        <p>
+          Grocify offera wide range of products, including fresh products, meats
+          dairy, baked goods and non-perishable items
+        </p>
+        <div class="mt-10">
+          <a
+            href="#"
+            class="bg-yellow-300 rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparent hover:border-yellow-300 hover:text-white duration-300 hover:border border border-transparent"
+            >Order now</a
+          >
+          <a href="#"
+            >Download App
+            <span class="text-lg inline-block rotate-90">&#10148;</span></a
+          >
+        </div>
+        <img
+          src="./images/grocery-image.png"
+          class="w-full h-5/6 xl:w-1/2 xl:absolute bottom-0 right-16"
+          alt=""
+        />
+      </div>
+    </div>
+
+    <main class="bg-slate-700">
+      <section class="pb-24">
+        <h2 class="p-3 text-yellow-400 text-5xl font-bold">Fruits</h2>
+        <div class="mt-5 grid mg:grid-cols-2 lg:grid-cols-3 gap-7 rounded-xl">
+          <!-- Fruits 1 -->
+          <div class="w-96 h-3/5 shadow-slate-200 rounded-xl">
+            <div class="object-cover p-3 items-center">
+              <img
+                class="ml-3 items-center h-96 w-96"
+                src="./Img/1.jfif"
+                alt="#"
+              />
+            </div>
+            <h3 class="ml-5 text-white text-2xl font-semibold">Pineapple</h3>
+            <div class="flex justify-between">
+              <h2 class="ml-5 text-3xl text-jacketprice font-bold">$31</h2>
+              <a
+                href="#"
+                class="-mt-8 mr-3 mb-4 bg-yellow-300 rounded-3xl py-3 px-8 font-medium inline-block hover:bg-transparent hover:border-yellow-300 hover:text-white duration-300 hover:border border border-transparent"
+                >Buy now</a
+              >
+            </div>
+          </div>
+          <!-- Fruits 2 -->
+          <div class="w-96 h-3/5 shadow-lg rounded-xl">
+            <div class="object-cover p-3 items-center">
+              <img
+                class="ml-3 items-center h-96 w-96"
+                src="./Img/2.jfif"
+                alt="#"
+              />
+            </div>
+            <h3 class="ml-5 text-white text-2xl font-semibold">Stoberry</h3>
+            <div class="flex justify-between">
+              <h2 class="ml-5 text-3xl text-jacketprice font-bold">$51</h2>
+              <a
+                href="#"
+                class="-mt-8 mr-3 mb-4 bg-yellow-300 rounded-3xl py-3 px-8 font-medium inline-block hover:bg-transparent hover:border-yellow-300 hover:text-white duration-300 hover:border border border-transparent"
+                >Buy now</a
+              >
+            </div>
+          </div>
+          <!-- Fruits 3 -->
+          <div class="w-96 h-3/5 shadow-lg rounded-xl">
+            <div class="object-cover p-3 items-center">
+              <img
+                class="ml-3 items-center h-96 w-96"
+                src="./Img/3.jpg"
+                alt="#"
+              />
+            </div>
+            <h3 class="ml-5 text-white text-2xl font-semibold">Apple</h3>
+            <div class="flex justify-between">
+              <h2 class="ml-5 text-3xl text-jacketprice font-bold">$94</h2>
+              <a
+                href="#"
+                class="-mt-8 mr-3 mb-4 bg-yellow-300 rounded-3xl py-3 px-8 font-medium inline-block hover:bg-transparent hover:border-yellow-300 hover:text-white duration-300 hover:border border border-transparent"
+                >Buy now</a
+              >
+            </div>
+          </div>
+          <!-- Fruits 4 -->
+          <div class="w-96 h-3/5 shadow-lg rounded-xl">
+            <div class="object-cover p-3 items-center">
+              <img
+                class="ml-3 items-center h-96 w-96"
+                src="./Img/4.jpg"
+                alt="#"
+              />
+            </div>
+            <h3 class="ml-5 text-white text-2xl font-semibold">Orange</h3>
+            <div class="flex justify-between">
+              <h2 class="ml-5 text-3xl text-jacketprice font-bold">$34</h2>
+              <a
+                href="#"
+                class="-mt-8 mr-3 mb-4 bg-yellow-300 rounded-3xl py-3 px-8 font-medium inline-block hover:bg-transparent hover:border-yellow-300 hover:text-white duration-300 hover:border border border-transparent"
+                >Buy now</a
+              >
+            </div>
+          </div>
+          <!-- Fruits 5 -->
+          <div class="w-96 h-3/5 shadow-lg rounded-xl">
+            <div class="object-cover p-3 items-center">
+              <img
+                class="ml-3 items-center h-96 w-96"
+                src="./Img/5.jpg"
+                alt="#"
+              />
+            </div>
+            <h3 class="ml-5 text-white text-2xl font-semibold">Litchi</h3>
+            <div class="flex justify-between">
+              <h2 class="ml-5 text-3xl text-jacketprice font-bold">$24</h2>
+              <a
+                href="#"
+                class="-mt-8 mr-3 mb-4 bg-yellow-300 rounded-3xl py-3 px-8 font-medium inline-block hover:bg-transparent hover:border-yellow-300 hover:text-white duration-300 hover:border border border-transparent"
+                >Buy now</a
+              >
+            </div>
+          </div>
+          <!-- Fruits 6-->
+          <div class="w-96 h-3/5 shadow-lg rounded-xl">
+            <div class="object-cover p-3 items-center">
+              <img
+                class="ml-3 items-center h-96 w-96"
+                src="./Img/6.jpg"
+                alt="#"
+              />
+            </div>
+            <h3 class="ml-5 text-white text-2xl font-semibold">Mango</h3>
+            <div class="flex justify-between">
+              <h2 class="ml-5 text-3xl text-jacketprice font-bold">$234</h2>
+              <a
+                href="#"
+                class="-mt-8 mr-3 mb-4 bg-yellow-300 rounded-3xl py-3 px-8 font-medium inline-block hover:bg-transparent hover:border-yellow-300 hover:text-white duration-300 hover:border border border-transparent"
+                >Buy now</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========Vegetable Start=========== -->
+
+      <section class="pb-24">
+        <h2 class="p-3 text-yellow-400 text-5xl font-bold">Vegetable</h2>
+        <div class="mt-5 grid mg:grid-cols-2 lg:grid-cols-3 gap-7 rounded-xl">
+          <!-- vegetable 1 -->
+          <div class="w-96 h-3/5 shadow-slate-200 rounded-xl">
+            <div class="object-cover p-3 items-center">
+              <img
+                class="ml-3 items-center h-96 w-96"
+                src="./Img/7.jpg"
+                alt="#"
+              />
+            </div>
+            <h3 class="ml-5 text-white text-2xl font-semibold">Cauliflower</h3>
+            <div class="flex justify-between">
+              <h2 class="ml-5 text-3xl text-jacketprice font-bold">$14</h2>
+              <a
+                href="#"
+                class="-mt-8 mr-3 mb-4 bg-yellow-300 rounded-3xl py-3 px-8 font-medium inline-block hover:bg-transparent hover:border-yellow-300 hover:text-white duration-300 hover:border border border-transparent"
+                >Buy now</a
+              >
+            </div>
+          </div>
+          <!-- vegetable 2 -->
+          <div class="w-96 h-3/5 shadow-lg rounded-xl">
+            <div class="object-cover p-3 items-center">
+              <img
+                class="ml-3 items-center h-96 w-96"
+                src="./Img/8.jfif"
+                alt="#"
+              />
+            </div>
+            <h3 class="ml-5 text-white text-2xl font-semibold">Cabbage</h3>
+            <div class="flex justify-between">
+              <h2 class="ml-5 text-3xl text-jacketprice font-bold">$15</h2>
+              <a
+                href="#"
+                class="-mt-8 mr-3 mb-4 bg-yellow-300 rounded-3xl py-3 px-8 font-medium inline-block hover:bg-transparent hover:border-yellow-300 hover:text-white duration-300 hover:border border border-transparent"
+                >Buy now</a
+              >
+            </div>
+          </div>
+          <!-- vegetable 3 -->
+          <div class="w-96 h-3/5 shadow-lg rounded-xl">
+            <div class="object-cover p-3 items-center">
+              <img
+                class="ml-3 items-center h-96 w-96"
+                src="./Img/9.jpg"
+                alt="#"
+              />
+            </div>
+            <h3 class="ml-5 text-white text-2xl font-semibold">Cucumber</h3>
+            <div class="flex justify-between">
+              <h2 class="ml-5 text-3xl text-jacketprice font-bold">$23</h2>
+              <a
+                href="#"
+                class="-mt-8 mr-3 mb-4 bg-yellow-300 rounded-3xl py-3 px-8 font-medium inline-block hover:bg-transparent hover:border-yellow-300 hover:text-white duration-300 hover:border border border-transparent"
+                >Buy now</a
+              >
+            </div>
+          </div>
+          <!-- vegetable 4 -->
+          <div class="w-96 h-3/5 shadow-lg rounded-xl">
+            <div class="object-cover p-3 items-center">
+              <img
+                class="ml-3 items-center h-96 w-96"
+                src="./Img/10.jpg"
+                alt="#"
+              />
+            </div>
+            <h3 class="ml-5 text-white text-2xl font-semibold">Tomato</h3>
+            <div class="flex justify-between">
+              <h2 class="ml-5 text-3xl text-jacketprice font-bold">$10</h2>
+              <a
+                href="#"
+                class="-mt-8 mr-3 mb-4 bg-yellow-300 rounded-3xl py-3 px-8 font-medium inline-block hover:bg-transparent hover:border-yellow-300 hover:text-white duration-300 hover:border border border-transparent"
+                >Buy now</a
+              >
+            </div>
+          </div>
+          <!-- vegetable 5 -->
+          <div class="w-96 h-3/5 shadow-lg rounded-xl">
+            <div class="object-cover p-3 items-center">
+              <img
+                class="ml-3 items-center h-96 w-96"
+                src="./Img/11.jfif"
+                alt="#"
+              />
+            </div>
+            <h3 class="ml-5 text-white text-2xl font-semibold">
+              Sweet pumpkin
+            </h3>
+            <div class="flex justify-between">
+              <h2 class="ml-5 text-3xl text-jacketprice font-bold">$9</h2>
+              <a
+                href="#"
+                class="-mt-8 mr-3 mb-4 bg-yellow-300 rounded-3xl py-3 px-8 font-medium inline-block hover:bg-transparent hover:border-yellow-300 hover:text-white duration-300 hover:border border border-transparent"
+                >Buy now</a
+              >
+            </div>
+          </div>
+          <!-- vegetable 6-->
+          <div class="w-96 h-3/5 shadow-lg rounded-xl">
+            <div class="object-cover p-3 items-center">
+              <img
+                class="ml-3 items-center h-96 w-96"
+                src="./Img/12.jpg"
+                alt="#"
+              />
+            </div>
+            <h3 class="ml-5 text-white text-2xl font-semibold">Puishak</h3>
+            <div class="flex justify-between">
+              <h2 class="ml-5 text-3xl text-jacketprice font-bold">$13</h2>
+              <a
+                href="#"
+                class="-mt-8 mr-3 mb-4 bg-yellow-300 rounded-3xl py-3 px-8 font-medium inline-block hover:bg-transparent hover:border-yellow-300 hover:text-white duration-300 hover:border border border-transparent"
+                >Buy now</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========Fish Start=========== -->
+
+      <section class="pb-24">
+        <h2 class="p-3 text-yellow-400 text-5xl font-bold">Fish</h2>
+        <div class="mt-5 grid mg:grid-cols-2 lg:grid-cols-3 gap-7 rounded-xl">
+          <!-- Fish 1 -->
+          <div class="w-96 h-3/5 shadow-slate-200 rounded-xl">
+            <div class="object-cover p-3 items-center">
+              <img
+                class="ml-3 items-center h-96 w-96"
+                src="./Img/13.jpg"
+                alt="#"
+              />
+            </div>
+            <h3 class="ml-5 text-white text-2xl font-semibold">Shrimp Fish</h3>
+            <div class="flex justify-between">
+              <h2 class="ml-5 text-3xl text-jacketprice font-bold">$14</h2>
+              <a
+                href="#"
+                class="-mt-8 mr-3 mb-4 bg-yellow-300 rounded-3xl py-3 px-8 font-medium inline-block hover:bg-transparent hover:border-yellow-300 hover:text-white duration-300 hover:border border border-transparent"
+                >Buy now</a
+              >
+            </div>
+          </div>
+          <!-- Fish 2 -->
+          <div class="w-96 h-3/5 shadow-lg rounded-xl">
+            <div class="object-cover p-3 items-center">
+              <img
+                class="ml-3 items-center h-96 w-96"
+                src="./Img/14.jpg"
+                alt="#"
+              />
+            </div>
+            <h3 class="ml-5 text-white text-2xl font-semibold">Hilsa Fish</h3>
+            <div class="flex justify-between">
+              <h2 class="ml-5 text-3xl text-jacketprice font-bold">$15</h2>
+              <a
+                href="#"
+                class="-mt-8 mr-3 mb-4 bg-yellow-300 rounded-3xl py-3 px-8 font-medium inline-block hover:bg-transparent hover:border-yellow-300 hover:text-white duration-300 hover:border border border-transparent"
+                >Buy now</a
+              >
+            </div>
+          </div>
+          <!-- Fish 3 -->
+          <div class="w-96 h-3/5 shadow-lg rounded-xl">
+            <div class="object-cover p-3 items-center">
+              <img
+                class="ml-3 items-center h-96 w-96"
+                src="./Img/15.jfif"
+                alt="#"
+              />
+            </div>
+            <h3 class="ml-5 text-white text-2xl font-semibold">Tilapia Fish</h3>
+            <div class="flex justify-between">
+              <h2 class="ml-5 text-3xl text-jacketprice font-bold">$23</h2>
+              <a
+                href="#"
+                class="-mt-8 mr-3 mb-4 bg-yellow-300 rounded-3xl py-3 px-8 font-medium inline-block hover:bg-transparent hover:border-yellow-300 hover:text-white duration-300 hover:border border border-transparent"
+                >Buy now</a
+              >
+            </div>
+          </div>
+          <!-- Fish 4 -->
+          <div class="w-96 h-3/5 shadow-lg rounded-xl">
+            <div class="object-cover p-3 items-center">
+              <img
+                class="ml-3 items-center h-96 w-96"
+                src="./Img/16.jfif"
+                alt="#"
+              />
+            </div>
+            <h3 class="ml-5 text-white text-2xl font-semibold">Rui Fish</h3>
+            <div class="flex justify-between">
+              <h2 class="ml-5 text-3xl text-jacketprice font-bold">$10</h2>
+              <a
+                href="#"
+                class="-mt-8 mr-3 mb-4 bg-yellow-300 rounded-3xl py-3 px-8 font-medium inline-block hover:bg-transparent hover:border-yellow-300 hover:text-white duration-300 hover:border border border-transparent"
+                >Buy now</a
+              >
+            </div>
+          </div>
+          <!-- Fish 5 -->
+          <div class="w-96 h-3/5 shadow-lg rounded-xl">
+            <div class="object-cover p-3 items-center">
+              <img
+                class="ml-3 items-center h-96 w-96"
+                src="./Img/17.jpg"
+                alt="#"
+              />
+            </div>
+            <h3 class="ml-5 text-white text-2xl font-semibold">Katla Fish</h3>
+            <div class="flex justify-between">
+              <h2 class="ml-5 text-3xl text-jacketprice font-bold">$9</h2>
+              <a
+                href="#"
+                class="-mt-8 mr-3 mb-4 bg-yellow-300 rounded-3xl py-3 px-8 font-medium inline-block hover:bg-transparent hover:border-yellow-300 hover:text-white duration-300 hover:border border border-transparent"
+                >Buy now</a
+              >
+            </div>
+          </div>
+          <!-- Fish 6-->
+          <div class="w-96 h-3/5 shadow-lg rounded-xl">
+            <div class="object-cover p-3 items-center">
+              <img
+                class="ml-3 items-center h-96 w-96"
+                src="./Img/18.png"
+                alt="#"
+              />
+            </div>
+            <h3 class="ml-5 text-white text-2xl font-semibold">Pangas Fish</h3>
+            <div class="flex justify-between">
+              <h2 class="ml-5 text-3xl text-jacketprice font-bold">$13</h2>
+              <a
+                href="#"
+                class="-mt-8 mr-3 mb-4 bg-yellow-300 rounded-3xl py-3 px-8 font-medium inline-block hover:bg-transparent hover:border-yellow-300 hover:text-white duration-300 hover:border border border-transparent"
+                >Buy now</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Our Benefits -->
+      <h2 class="p-3 text-yellow-400 text-5xl font-bold">Our Benefits</h2>
+      <section class="bg-[#eceaea] p-3 w-9/12 ml-40 rounded-xl">
+        <div class="grid grid-cols-2 gap-7">
+          <div class="rounded-lg flex gap-6 p-6">
+            <img class="w-20 h-20" src="./images/house.png" alt="" />
+            <div>
+              <h4 class="text-2xl">Find The Perfect Fit</h4>
+              <p>
+                Everybody is different which is why we offer styles for verybody
+              </p>
+            </div>
+          </div>
+          <div class="row-span-3">
+            <img class="mt-10" src="./images/shopping.png" alt="" />
+          </div>
+          <div class="rounded-lg flex gap-6 p-6">
+            <img class="w-20 h-20" src="./images/question.png" alt="" />
+            <div>
+              <h4 class="text-2xl">Find The Perfect Fit</h4>
+              <p>
+                Everybody is different which is why we offer styles for verybody
+              </p>
+            </div>
+          </div>
+          <div class="rounded-lg flex p-6 gap-6">
+            <img class="w-20 h-20" src="./images/box.png" alt="" />
+            <div>
+              <h4 class="text-2xl">Find The Perfect Fit</h4>
+              <p>
+                Everybody is different which is why we offer styles for verybody
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-slate-900 mt-20 p-2">
+      <p class="text-center text-white h-8 mt-96">
+        @Mostafizur Rahman Badhon || 2023
+      </p>
+    </footer>
+  </body>
+</html>
